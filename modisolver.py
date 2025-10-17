@@ -501,3 +501,14 @@ if st.button("Calculate Optimal Solution", type="primary"):
     except Exception as e:
         st.error(f"An error occurred during calculation: {e}")
         st.error("Please check your inputs. All values must be numeric.")
+
+    st.markdown(
+        """
+        <hr style="margin-top:50px;margin-bottom:10px;">
+        <div style='text-align: center; color: grey; font-size: 14px;'>
+            © Made by <b>Musaib Bin Bashir</b> | 2025
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
